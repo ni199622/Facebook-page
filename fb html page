@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <div class="header-block">
+    <div class="logo">
+    <img src="fb logo.jpg" width="200px" alt="facebook"/>
+    </div><!--logo closing-->
+    <div class="facebook-login">
+    <div class="email">
+    <label>email or phone</label><br>
+    <input type="text" name="email" /><br>
+    </div>
+    <label>password</label><br>
+    <div class="password">
+    <input type="password" name="password"/><br>
+        <a href="#">Forgotton account?</a>
+
+    </div><!--pass closing-->
+    <div class="login-button">
+    <input type="submit" value="Login"/>
+    </div><!--lgoin closing-->
+
+    </div><!--fb login-->
+    </div><!--header block-->
+    </header>
+<div class="content-block clearfix">
+    <div class="facebook-connect">
+        <p>Facebook helps you connect and share with<br> the people your life</p>
+    </div><!--facebook connect-->
+    
+    <img src="community.png" style="width:400px">
+
+    <div class="create-account"style="float:align">
+        <h2>Sign Up</h2>
+        <p class="free">Its free and always will be</p>
+
+        <div class="account">
+                <form>
+                <input type="text" name="first-name" placeholder="First name"/>
+                <input type="text" name="Last name" placeholder="Last name"/><br>
+
+                <input type="text" name="mobile" placeholder="your email "/><br>
+                <input type="text" name="mobile" placeholder="re-enter email"/><br>
+                <input type="password" name="password" placeholder="new password"/><br>
+                <label>Birthday</label><br>
+                <input type="date" name="date"/><span></span><br>
+
+                <input type="radio" name="gender" value="female"/><label>Female</label>
+                <input type="radio" name="gender" value="male"/><label>Male</label><br>
+                <span="By-clicking">By clicking create an account you agree to our terms and conditions</span>
+                <input type="submit" value="Create an account"/>
+                <br><br><br><br><br>
+                
+            </form>
+
+        </div!><!--acc closing-->
+    </div><!--create account-->
+</div><!--content block closing-->
+
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+body{
+    background-color: rgb(234, 234, 250);
+}
+header{
+    background:#415e9b;
+    height:82px;
+    border-bottom: 1px solid #133783
+
+}
+.header-block {
+    width:992px;
+    margin:0 auto;
+}
+.logo {
+    width:50%;
+    float:left;
+    margin: 0 auto;
+}
+.facebook-login {
+    width:50%;
+    float:left;
+
+}
+.header-block label{
+    color:#fff;
+
+}
+.email{
+    float:left;
+}
+.email label{
+    padding-bottom:10px;
+}
+.email input[type="text"]{
+    height:17px;
+    width:150px;
+    border:1px solid #07080e;
+    margin-right:25px;
+}
+.password{
+    float:left;
+
+}
+.password label {
+    padding-bottom: 10px;
+    margin-left:10px;
+}
+.password input[type="text"]{
+    height:30px;
+    width:150px;
+    border:1px solid #0d101a;
+    
+}
+.password a {
+    color: #8fb1d8
+   
+}
+.login-button{
+    float:left;
+    margin-left:20px;
+}
+.login-button input[type="submit"]{
+    background : #4267b2;
+    border:1px solid #29487d;
+    border-radius:2px;
+    color: #fff;
+    height:20px;
+    width:50px;
+   }
+.clearfix{
+    clear:both;
+}
+.content-block{
+    width:992px;
+    margin:0 auto;
+}
+.facebook-connect p{
+    color:#0e385f;
+    font-size: 18px;
+    font-weight: bold;
+}
+.facebook-connect img{
+    margin-top: 50px;
+    float:left;
+    font-weight:bold;
+
+}
+.create-account {
+    float:right;
+    width:50%;
+
+}
+.facebook-connect {
+    margin-top: 10px;
+}
+.content-container{
+    background:linear-gradient(#fff, #d9ddeb) ;
+    overflow: hidden;
+}
+.create-account h2{
+    font-size: 40px;
+}
+.create-account  .free{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.account input[type="text"]{
+    margin-bottom:15px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:16px;
+    Border:1PX SOLID ;
+}
+.account input[type="password"]{
+    margin-bottom:15px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left:0px;
+    border:1px solid
+}
+.account .By-clicking{
+    color: #77777a;
+}
+.account input[type="submit"]{
+    float: left;
+    padding: 15px 22px;
+    background:linear-gradient(#95d67c,#65a953);
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    font-size:25px;
+    color: #e5e7ec;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
